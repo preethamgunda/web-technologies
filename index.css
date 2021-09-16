@@ -1,3 +1,81 @@
 .btn:hover{
-    background-color: rgb(124, 121, 121); /* Add a hover color */
+  background-color: rgb(124, 121, 121); /* Add a hover color */
+}
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  .body{
+    background-color: black;
+  }
+  /* teams selection */
+  .hover10 figure img {
+    -webkit-filter:  blur(0);
+    filter:  blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .hover10 figure:hover img {
+    -webkit-filter:  blur(3px);
+    filter:  blur(3px);
+  }
+
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .wrapper {
+    width: 100%;
+    max-width: 31.25rem;
+    margin: 1rem auto;
+  }
+  
+  .label {
+    font-size: .625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: +1.3px;
+    margin-bottom: 1rem;
+  }
+  
+  .searchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #searchQueryInput {
+    width: 100%;
+    height: 2.8rem;
+    background: #f5f5f5;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+  }
+  
+  #searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  #searchQuerySubmit:hover {
+    cursor: pointer;
   }
